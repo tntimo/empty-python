@@ -19,6 +19,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install poetry
         poetry install
-    - name: Analysing the code with pylint
+    - name: Run TOX
       run: |
         poetry run tox
