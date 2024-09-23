@@ -3,7 +3,7 @@
 
 default:
   image: python:3.11-slim
-  tags: ["docker"]
+  # tags: ["docker"]  # Put here tags that makes sense for the GitLab setup
   artifacts:
     expire_in: 1 days
   retry:
