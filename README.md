@@ -10,7 +10,7 @@ poetry config virtualenvs.in-project true
 poetry install
 ```
 
-Select the proper environment in VSCode.
+Ensure proper environment is selected in VSCode: `.venv/bin/python`.
 
 ### USe the terminal 
 
