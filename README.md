@@ -12,7 +12,7 @@ poetry install
 
 Ensure proper environment is selected in VSCode: `.venv/bin/python`.
 
-### USe the terminal 
+### Use the terminal 
 
 Maybe run if VSCode stubborly refuses to use the proper environment: `poetry shell`
 
