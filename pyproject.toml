@@ -6,7 +6,7 @@ authors = ["Nicola Timoncini <tntimo@gmail.com>"]
 license = "BSD 3-Clause License"
 readme = "README.md"
 packages = [
-    { include = "empty-python", from = "src" },
+    { include = "empty", from = "src" },
 ]
 
 [tool.poetry.dependencies]

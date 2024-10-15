@@ -1,6 +1,5 @@
-import asyncio
+import empty
 
 
 async def test_nothing():
-    await asyncio.sleep(0.01)
-    assert True, "Please add a real test"
+    assert empty.do_nothing, "Please add a real test"
