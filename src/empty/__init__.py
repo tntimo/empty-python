@@ -1,1 +1,1 @@
-from .empty import do_nothing as do_nothing
+from .main import main as main
