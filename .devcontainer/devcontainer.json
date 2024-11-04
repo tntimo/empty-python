@@ -11,7 +11,7 @@
 	// "forwardPorts": [],
 
 	// 👇 Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "poetry config virtualenvs.in-project true; poetry install",
+	"postCreateCommand": "poetry install",
 
 	// 👇 Configure tool-specific properties.
 	"customizations": {
