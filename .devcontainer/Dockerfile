@@ -1,4 +1,4 @@
-FROM python:3.11
+FROM python:3.12
 
-RUN pip install poetry \
+RUN pip install poetry tox \
     && poetry config virtualenvs.in-project true
